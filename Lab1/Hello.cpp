@@ -1,5 +1,5 @@
 /***
- * {Short Description of the lab}
+ Assignment 1 - Setup 
  ***/
 
 #include <iostream>

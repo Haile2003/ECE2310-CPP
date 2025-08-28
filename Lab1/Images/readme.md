@@ -13,3 +13,9 @@ Below are explanations of common command line tools for navigating directories:
 
 4. `cd {folder_name}`  
    *Change Directory:* Moves into the specified folder.
+
+# Images from Deliverables
+![Lab result](Images/image.png)
+
+![Lab result](Images/image2.png)
+

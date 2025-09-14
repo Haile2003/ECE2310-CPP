@@ -1,4 +1,4 @@
-##Lab 2
+#Lab 2
 
 1. `Arrays`
 ![Array lab output](images/image.png)

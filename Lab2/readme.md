@@ -1,7 +1,9 @@
-# Lab 2
+#Arrays and Vectors
 
-1. `Arrays`
-![Array lab output](images/image.png)
+Below are the photos of the each lab:
 
-2. `Vector` 
-![vector lab output](images/image2.png)
+1. `Lab1: Array`
+![Lab result](images/image.png)
+
+2. `Lab2: Vector`
+![Lab result](images/image2.png)

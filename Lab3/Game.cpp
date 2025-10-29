@@ -114,12 +114,6 @@ void Game::gameLoop()
         battleRound();
     }
 
-    /*
-    // Optionally print the winner
-    if (live_players.size() == 1) {
-        int winnerIndex = *live_players.begin();
-        printf("Game Over! The winner is %s\n", players[winnerIndex]->getName().c_str());
-    }*/
 }
 
 /**

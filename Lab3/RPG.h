@@ -18,6 +18,13 @@ public:
     bool isAlive() const;
     void setHitsTaken(int new_hits);
 
+    //New Mutators (Coding assignment 4)
+    void setName(string name);
+    void updateExpLevel();
+    void attack( RPG * opponent);
+    void printStats();
+    //Detructors (Coding assignment 4)
+    ~RPG();
     //accessors
     string getName() const;
     int getHitsTaken()const;

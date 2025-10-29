@@ -1,10 +1,14 @@
 //main.cpp
 #include <iostream>
 #include "RPG.h"
+#include "Game.h"
+
 using namespace std;
 
 int main()
 {
+    // Coding assignment 3
+    /*
     RPG p1 = RPG("Wiz", 0, 0.2, 60, 1);
     RPG p2 = RPG();
 
@@ -25,16 +29,23 @@ int main()
 
     cout << p1.getName() << " " << p1.isAlive() << " ";
     cout << p2.getName() << " " << p2.isAlive() << endl;
-
-    /** 
-    if(p1.isAlive()){
-        cout << p1.getName() << " 1\t";
-        cout << p2.getName() << " 0\n";   
-    }
-    if(p2.isAlive()){
-        cout << p1.getName() << " 0\t";
-        cout << p2.getName() << " 1\n";
-    }
+    
     */
+
+    //coding Assignment 4
+    // Create a Game object
+    Game game;
+
+    // Create num_players as an int and set it to 10
+    int num_players = 10;
+
+    // Call generatePlayers(...) with num_players as the parameter
+    game.generatePlayers(num_players);
+
+    // Call gameLoop()
+    game.gameLoop();
+
+    // Call printFinalResults()
+    game.printFinalResults();
     return 0;
 }
